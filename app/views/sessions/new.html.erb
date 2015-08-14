@@ -1,0 +1,19 @@
+<div data-js="users" data-login="login">
+  <%= form_for(:user, url: login_path) do |f| %>
+
+    <div>
+      <%= f.label           :email %>
+      <%= f.email_field     :email %>
+    </div>
+
+    <div>
+      <%= f.label           :password %>
+      <%= f.password_field  :password %>
+    </div>
+
+    <div>
+      <%= f.submit "Log in" %>
+    </div>
+
+  <% end %>
+</div>

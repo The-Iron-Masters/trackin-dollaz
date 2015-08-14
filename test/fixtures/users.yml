@@ -1,0 +1,6 @@
+one:
+  email: 'sr@aol.com'
+  password_digest: <%= BCrypt::Password.create('password', cost: 4) %>
+  first_name: 'Stan'
+  last_name: 'Ryan'
+  phone_number: '843-555-1234'

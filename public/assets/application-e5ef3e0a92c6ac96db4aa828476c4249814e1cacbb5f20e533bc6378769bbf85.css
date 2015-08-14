@@ -1,0 +1,131 @@
+/* line 1, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 4, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+html,
+body {
+  font-size: 14px;
+}
+
+/* line 8, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* line 13, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+body {
+  font-family: Helvetica, Helvetica Neue, Arial, sans-serif;
+  color: #4D4D4D;
+}
+
+/* line 17, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+ul {
+  list-style: none;
+}
+
+/* line 20, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+li {
+  display: inline;
+}
+
+/* line 23, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+.react-login {
+  display: inline;
+}
+/* line 25, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+.react-login > div {
+  display: inherit;
+}
+/* line 27, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+.react-login > div > p {
+  display: inherit;
+}
+
+/* line 32, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_globalStyles.scss */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 1, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_transactionLists.scss */
+.transaction__list {
+  display: inline-block;
+  text-align: center;
+}
+/* line 4, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_transactionLists.scss */
+.transaction__list .inner__list {
+  color: #4D4D4D;
+  width: 100%;
+  border: 1px solid #4D4D4D;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+/* line 10, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_transactionLists.scss */
+.transaction__list .inner__list th {
+  text-decoration: underline;
+}
+
+/* line 17, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_transactionLists.scss */
+.totals {
+  display: inline-block;
+  width: 30%;
+  float: right;
+  text-align: right;
+}
+/* line 22, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_transactionLists.scss */
+.totals > h2 {
+  text-align: center;
+}
+/* line 25, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_transactionLists.scss */
+.totals > .total_income {
+  border-bottom: 1px solid #4D4D4D;
+  padding: 10px;
+}
+/* line 29, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_transactionLists.scss */
+.totals > .total_expenses {
+  border-bottom: 1px solid #4D4D4D;
+  padding: 10px;
+}
+/* line 33, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_transactionLists.scss */
+.totals > .total_cashflow {
+  border-bottom: 1px solid #4D4D4D;
+  padding: 10px;
+}
+
+/* line 1, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_expenseInput.scss */
+form {
+  width: 100%;
+  margin: 20px auto;
+  border: 1px solid #4D4D4D;
+}
+/* line 5, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_expenseInput.scss */
+form select {
+  border: 0;
+  outline: 1px solid #CCC;
+  background-color: white;
+  height: 19px;
+}
+/* line 9, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_expenseInput.scss */
+form button {
+  border: 0;
+  outline: 1px solid #CCC;
+  background-color: white;
+}
+
+/* line 13, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_expenseInput.scss */
+.expense__form {
+  list-style-type: none;
+  width: auto;
+  margin: 10px auto;
+  padding: 0;
+  text-align: center;
+}
+/* line 19, /home/stan/Documents/Projects/The Iron Yard/Week 8/trackin-dollaz/app/assets/stylesheets/_expenseInput.scss */
+.expense__form .form__item {
+  display: inline-block;
+  padding: 10px 10px;
+}

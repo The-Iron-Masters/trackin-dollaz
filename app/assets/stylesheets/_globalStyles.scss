@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 14px;
+  font-family: $global-font;
+  background-color: #559AB5;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  color: $color-theme;
+}
+ul {
+  list-style: none;
+}
+li {
+  display: inline;
+}
+.react-login {
+  display: inline;
+  > div {
+    display: inherit;
+    > p {
+      display: inherit;
+    }
+  }
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}

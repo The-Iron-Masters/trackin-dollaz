@@ -1,0 +1,40 @@
+{
+  "name": "trackin-dollaz",
+  "version": "1.0.0",
+  "description": "Our mony manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mcmillanator/trackin-dollaz.git"
+  },
+  "keywords": [
+    "money",
+    "manager"
+  ],
+  "author": "Stan Ryan Jamie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcmillanator/trackin-dollaz/issues"
+  },
+  "homepage": "https://github.com/mcmillanator/trackin-dollaz",
+  "dependencies": {
+    "browserify": "^11.0.1",
+    "browserify-incremental": "^3.0.1",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "superagent": "^1.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "reactify"
+      ]
+    ]
+  }
+}

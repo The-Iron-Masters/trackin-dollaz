@@ -1,0 +1,8 @@
+$color-theme: #000;
+$global-font:'Lato', sans-serif;
+
+@mixin input-buttons {
+  border: 0;
+  outline: 1px solid #CCC;
+  background-color: white;
+}

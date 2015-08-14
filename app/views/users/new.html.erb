@@ -1,0 +1,39 @@
+<%= form_for @user, url: {action: "create"} do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <div class="alert alert-danger">
+        The form contains <%= pluralize(@user.errors.count, "error") %>.
+      </div>
+      <% @user.errors.full_messages.each do |msg| %>
+        <p><%= msg %></p>
+      <% end %>
+    </div>
+  <% end %>
+  <div>
+    <%= f.label       :First_name %>
+    <%= f.text_field  :first_name %>
+  </div>
+  <div>
+    <%= f.label       :Last_name %>
+    <%= f.text_field  :last_name %>
+  </div>
+  <div>
+    <%= f.label       :Phone_number %>
+    <%= f.text_field  :phone_number %>
+  </div>
+  <div>
+    <%= f.label       :email %>
+    <%= f.email_field :email %>
+  </div>
+  <div>
+    <%= f.label           :password %>
+    <%= f.password_field  :password %>
+  </div>
+  <div>
+    <%= f.label           :confirmation %>
+    <%= f.password_field  :password_confirmation %>
+  </div>
+  <div>
+    <%= f.submit %>
+  </div>
+<% end %>

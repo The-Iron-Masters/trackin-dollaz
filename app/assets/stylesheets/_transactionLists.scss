@@ -1,0 +1,55 @@
+.transaction__list {
+  width: 60%;
+  display: inline-block;
+  text-align: center;
+  text-transform: capitalize;
+  button {
+    @include input-buttons;
+    margin: 5px 10px;
+  }
+  .inner__list {
+    color: $color-theme;
+    width: 100%;
+    border: 1px solid $color-theme;
+    padding: 10px;
+    margin-bottom: 15px;
+    th {
+      text-decoration: underline;
+    }
+    td {
+      margin: 5px 10px;
+    }
+  }
+}
+
+.totals {
+  display: inline-block;
+  width: 30%;
+  float: right;
+  text-align: right;
+  h2 {
+    text-align: center;
+  }
+  .total_income {
+    border-bottom: 1px solid $color-theme;
+    padding: 10px;
+  }
+  .total_expenses {
+    border-bottom: 1px solid $color-theme;
+    padding: 10px;
+  }
+  .total_cashflow {
+    border-bottom: 1px solid $color-theme;
+    padding: 10px;
+  }
+}
+
+.transaction__edit {
+  input {
+    color: $color-theme;
+    opacity: 0.7;
+  }
+  button {
+    @include input-buttons;
+  }
+}

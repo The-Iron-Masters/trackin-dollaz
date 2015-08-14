@@ -1,0 +1,6 @@
+one:
+  user_id: 1
+  name: 'Bacon'
+  amount: 3456
+  transaction_type: 'Income'
+  transaction_date: 2015-08-05

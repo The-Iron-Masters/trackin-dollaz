@@ -1,0 +1,23 @@
+form {
+  width: 100%;
+  margin: 20px auto;
+  border: 1px solid $color-theme;
+  select {
+    @include input-buttons;
+    height: 19px;
+  }
+  button {
+    @include input-buttons;
+  }
+}
+.expense__form {
+  list-style-type: none;
+  width: auto;
+  margin: 10px auto;
+  padding: 0;
+  text-align: center;
+  .form__item {
+    display: inline-block;
+    padding: 10px 10px;
+  }
+}
