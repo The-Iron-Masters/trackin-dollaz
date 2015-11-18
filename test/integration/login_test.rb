@@ -18,6 +18,7 @@ class ExpenseFormTest < ActionDispatch::IntegrationTest
       fill_in 'Email', with: @user.email
       fill_in 'Password', with: 'password'
       click_on 'Submit'
+      assert page.has_content?('You are logged in')
     end
   end
 end
