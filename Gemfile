@@ -9,11 +9,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
-gem 'sidekiq'
 gem 'carrierwave'
 gem 'dotenv-rails'
 gem 'sinatra', require: nil
 gem 'browserify-rails'
+gem 'sidekiq'
 
 group :development, :test do
   gem 'pry'
